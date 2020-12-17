@@ -1,8 +1,13 @@
 import React, { useState } from 'react';
-
+import image1 from '../../assets/images/logo.jpg';
 import { Anchor, Drawer, Button } from 'antd';
+//import Imagenes from '../home/Imagenes.js';
 
+//const src1 = '../../assets/images/LOGO.jpg'
+//import image7 from '../../assets/images/logo.jpg';
 const { Link } = Anchor;
+
+
 
 function AppHeader() {
   const [visible, setVisible] = useState(false);
@@ -19,18 +24,25 @@ function AppHeader() {
     <div className="container-fluid">
       <div className="header">
         <div className="logo">
-          <i className="fas fa-bolt"></i>
-          <a href="http://google.com">Tech</a>
+          <i>
+          <div>
+            <img class="ui mini image" width="100" height="100" src={image1}/>
+
+            
+          </div>
+          </i>
+          
         </div>
         <div className="mobileHidden">
           <Anchor targetOffset="65">
             <Link href="#hero" title="Home" />
-            <Link href="#about" title="About" />
+            <Link href="#about" title="Acerca de" />
             <Link href="#feature" title="Features" />
             <Link href="#works" title="How it works" />
             <Link href="#faq" title="FAQ" />
             <Link href="#pricing" title="Pricing" />
             <Link href="#contact" title="Contact" />
+            
           </Anchor>
         </div>
         <div className="mobileVisible">
@@ -45,12 +57,13 @@ function AppHeader() {
           >
             <Anchor targetOffset="65">
               <Link href="#hero" title="Home" />
-              <Link href="#about" title="About" />
+              <Link href="#about" title="Acerca de" />
               <Link href="#feature" title="Features" />
               <Link href="#works" title="How it works" />
               <Link href="#faq" title="FAQ" />
               <Link href="#pricing" title="Pricing" />
               <Link href="#contact" title="Contact" />
+             
             </Anchor>
           </Drawer>
         </div>
