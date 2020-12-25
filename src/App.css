@@ -210,10 +210,13 @@ hero
 */
 
 .heroBlock {
-    background: url('assets/images/bg-hero.jpg') no-repeat;
+    background: url('assets/images/company-headerbild-2-1920x696.jpg') no-repeat;
     background-position: 50% 100%;
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
+    margin-top: 60px;
+    max-height: 1040px;
+    ;
 }
 
 .heroBlock .container-fluid {
@@ -234,17 +237,22 @@ hero
 }
 
 .heroBlock .content {
-    max-width: 640px;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 0 70px;
+    padding: 0 0 0 30px;
+    color: white;
+    margin-top: 50px;
+    float: right;
+    margin-right: -300;
 }
 
 .heroBlock h3 {
     font-size: 30px;
     line-height: 1.2;
     margin: 0 0 30px;
+    color: white;
 }
 
 .heroBlock p {

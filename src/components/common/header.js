@@ -35,13 +35,12 @@ function AppHeader() {
         </div>
         <div className="mobileHidden">
           <Anchor targetOffset="65">
-            <Link href="#hero" title="Home" />
+            <Link href="#hero" title="Inicio" />
             <Link href="#about" title="Acerca de" />
-            <Link href="#feature" title="Features" />
-            <Link href="#works" title="How it works" />
-            <Link href="#faq" title="FAQ" />
-            <Link href="#pricing" title="Pricing" />
-            <Link href="#contact" title="Contact" />
+            <Link href="#feature" title="Imagenes de ovnis" />
+            <Link href="#works" title="Imagen de la luna" />
+         
+            <Link href="#contact" title="Contactanos" />
             
           </Anchor>
         </div>
@@ -58,11 +57,10 @@ function AppHeader() {
             <Anchor targetOffset="65">
               <Link href="#hero" title="Home" />
               <Link href="#about" title="Acerca de" />
-              <Link href="#feature" title="Features" />
-              <Link href="#works" title="How it works" />
-              <Link href="#faq" title="FAQ" />
-              <Link href="#pricing" title="Pricing" />
-              <Link href="#contact" title="Contact" />
+              <Link href="#feature" title="Imagenes de ovnis" />
+              <Link href="#works" title="Imagen de la luna" />
+              
+              <Link href="#contact" title="Contactanos" />
              
             </Anchor>
           </Drawer>

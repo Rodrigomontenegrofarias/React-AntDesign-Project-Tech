@@ -6,20 +6,20 @@ const items = [
   {
     key: '1',
     icon: <i className="fas fa-chart-pie"></i>,
-    title: 'High Performance',
-    content: 'cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus.',
+    title: 'Metodo de trabajo mediante scrum',
+    content: 'El trabajo fue adquirido a aplicar buenas tecnicas al realizar el trabajo.',
   },
   {
     key: '2',
     icon: <i className="fas fa-desktop"></i>,
-    title: 'Flat Design',
-    content: 'cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus.',
+    title: 'Plataforma adquirida fue netlify',
+    content: 'Conectar el dominio de la pagina con el hosting de preferencia Namecheap .',
   },
   {
     key: '3',
-    icon: <i className="fas fa-database"></i>,
-    title: 'Simplified Workflow',
-    content: 'cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus.',
+    icon: <i className="fas fa-folder outline"></i>,
+    title: 'Contenedor del programa',
+    content: 'Tendremos el programa contenido en github o devAzure',
   },
 ]
 
@@ -28,11 +28,12 @@ function AppAbout() {
     <div id="about" className="block aboutBlock">
       <div className="container-fluid">
         <div className="titleHolder">
-          <h2>About Us</h2>
-          <p>dolor sit amet, consectetur adipisicing elit</p>
+          <h2>Acerca de mi pagina web</h2>
+          <p>Fue desarrollada mediante la siguente forma</p>
         </div>
         <div className="contentHolder">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit necessitatibus officiis repudiandae est deserunt delectus dolorem iure porro distinctio fuga, nostrum doloremque. Facilis porro in laborum dolor amet ratione hic? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam aut a porro, adipisci quidem sint enim pariatur ducimus, saepe voluptatibus inventore commodi! Quis, explicabo molestias libero tenetur temporibus perspiciatis deserunt.</p>
+          <p>
+          </p>
         </div>
         <Row gutter={[16, 16]}>   
           {items.map(item => {
